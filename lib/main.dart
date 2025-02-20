@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
-import 'app.dart';
+import 'object_detection_screen.dart';
 
 main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-
   runApp(
-    const MaterialApp(
-      home: YoloVideo(),
+    MaterialApp(
+      home: ObjectDetectionApp(),
     ),
   );
 }
